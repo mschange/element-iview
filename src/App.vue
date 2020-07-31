@@ -4,15 +4,18 @@
     <slider-tree></slider-tree>
     <!-- iview-ui左侧导航栏 -->
     <iview-slider></iview-slider>
+    <elMenv></elMenv>
   </div>
 </template>
 <script>
 import sliderTree from './components/tree'
 import iviewSlider from './components/iveiew/side-menu.vue'
+import elMenv from './components/el/tree';
 export default {
   components: {
     'slider-tree': sliderTree,
-    'iview-slider': iviewSlider
+    'iview-slider': iviewSlider,
+    elMenv
   },
   data() {
     return {}
